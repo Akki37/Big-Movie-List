@@ -19,7 +19,7 @@ function MovieForm(props) {
     const handleChange=(e)=>{
      if(e.target.name === "movie"){
         setMovieName(e.target.value)
-         axios.get(`http://www.omdbapi.com/?apikey=22080078&t=${e.target.value.toLowerCase()}`)
+         axios.get(`https://www.omdbapi.com/?apikey=22080078&t=${e.target.value.toLowerCase()}`)
          .then((response)=>{
              const result = response.data
              if(result.Response==="True"){
