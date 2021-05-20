@@ -1,0 +1,16 @@
+.add_movie{
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.addmovie_heading{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(248,55,68);
+}
